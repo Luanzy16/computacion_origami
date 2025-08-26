@@ -3,6 +3,12 @@
 
 Este proyecto modela "pleats" (tiras) y gadgets lógicos (AND, OR, NOT, NAND) que se interconectan en una red acíclica (DAG). Soporta valores `None` como señal indefinida (política por defecto: propagar `None` a la salida).
 
+### Integrantes
+
+- Luis Sanchez
+- Valentina Andrade
+- Mateo Fonseca
+
 ## Estructura
 - `pleat.py`: clase `Pleat`.
 - `gadget.py`: clase base `Gadget` y política de indefinidos.
