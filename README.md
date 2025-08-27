@@ -7,7 +7,7 @@ Este proyecto modela "pleats" (tiras) y gadgets lógicos (AND, OR, NOT, NAND) qu
 
 - Luis Sanchez
 - Valentina Andrade
-- Mateo Fonseca
+- Mateo Patiño
 
 ## Estructura
 - `pleat.py`: clase `Pleat`.
@@ -26,4 +26,4 @@ python3 main.py
 ```
 
 ## Política de indefinidos
-Si cualquier entrada de un gadget es `None`, las salidas quedan en `None`. Puedes cambiar la política a `"raise"` en instancias específicas si prefieres que se lance una excepción.
+Si cualquier entrada de un gadget es `None`, las salidas quedan en `None`.
