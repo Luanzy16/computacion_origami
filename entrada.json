@@ -1,19 +1,9 @@
 {
-  "inputs": {
-    "A": 1,
-    "B": 0
-  },
-  "gates": [
-    {
-      "id": "G1",
-      "type": "AND",
-      "inputs": ["A", "B"]
-    },
-    {
-      "id": "G2",
-      "type": "NOT",
-      "inputs": ["G1"]
-    }
+  "pleats": ["a","b","sum","carry"],
+  "gadgets": [
+    {"type":"AND","id":"and1","inputs":["a","b"],"outputs":["carry"]},
+    {"type":"OR","id":"or1","inputs":["a","b"],"outputs":["o1"]},
+    {"type":"AND","id":"and2","inputs":["a","b"],"outputs":["o2"]}
   ],
-  "outputs": ["G1", "G2"]
+  "inputs": {"a": true, "b": false}
 }
